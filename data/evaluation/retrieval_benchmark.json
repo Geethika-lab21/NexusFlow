@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "query": "What does the Professional plan cost and what is included?",
+    "expected_docs": ["03_pricing_packaging", "01_product_overview"],
+    "expected_keywords": ["149", "Professional", "per user"]
+  },
+  {
+    "id": "q2",
+    "query": "Does NexusFlow offer native Salesforce and HubSpot integration?",
+    "expected_docs": ["05_integrations"],
+    "expected_keywords": ["Salesforce", "HubSpot", "bi-directional"]
+  },
+  {
+    "id": "q3",
+    "query": "What security certifications does NexusFlow maintain for enterprise data?",
+    "expected_docs": ["06_security_compliance"],
+    "expected_keywords": ["SOC 2 Type II", "encryption", "GDPR"]
+  },
+  {
+    "id": "q4",
+    "query": "How do I handle prospects who say NexusFlow is too expensive?",
+    "expected_docs": ["07_sales_objections"],
+    "expected_keywords": ["expensive", "ROI", "discount"]
+  },
+  {
+    "id": "q5",
+    "query": "What are the discount limits that an SDR or sales manager can authorize?",
+    "expected_docs": ["12_discount_policy"],
+    "expected_keywords": ["10%", "25%", "SDR authority", "manager"]
+  },
+  {
+    "id": "q6",
+    "query": "How does NexusFlow compare to Zapier and Workato?",
+    "expected_docs": ["08_competitor_comparison"],
+    "expected_keywords": ["Zapier", "Workato", "predictive lead scoring"]
+  },
+  {
+    "id": "q7",
+    "query": "What is the implementation timeline and steps in the onboarding guide?",
+    "expected_docs": ["09_onboarding_guide"],
+    "expected_keywords": ["CRM Sync", "Knowledge Ingestion", "Enablement"]
+  },
+  {
+    "id": "q8",
+    "query": "What are the unsupported use cases or product limitations for real-time telemetry?",
+    "expected_docs": ["14_product_limitations"],
+    "expected_keywords": ["unsupported", "IoT", "real-time", "phone calls"]
+  },
+  {
+    "id": "q9",
+    "query": "What results did retail and manufacturing customers achieve in case studies?",
+    "expected_docs": ["13_case_studies"],
+    "expected_keywords": ["Krypton Commerce", "Universal Dynamics", "41%", "case study"]
+  },
+  {
+    "id": "q10",
+    "query": "What BANT qualification framework should sales reps follow in discovery calls?",
+    "expected_docs": ["10_sales_playbook"],
+    "expected_keywords": ["BANT", "Budget", "Authority", "Need", "Timeline"]
+  }
+]

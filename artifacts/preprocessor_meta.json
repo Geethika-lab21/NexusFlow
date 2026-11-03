@@ -1,0 +1,134 @@
+{
+  "model_type": "LogisticRegression",
+  "model_version": "1.0.0",
+  "threshold": 0.5,
+  "training_date": "2026-10-18T06:46:15.491202",
+  "train_samples": 490,
+  "test_samples": 210,
+  "features": {
+    "numeric": [
+      "engagement_score",
+      "website_visits",
+      "email_opens",
+      "email_clicks",
+      "meeting_count",
+      "days_since_created"
+    ],
+    "categorical": [
+      "industry",
+      "lead_source"
+    ],
+    "ordinal": [
+      "company_size_encoded",
+      "budget_range_encoded",
+      "timeline_encoded",
+      "decision_maker_status"
+    ],
+    "all_transformed": [
+      "engagement_score",
+      "website_visits",
+      "email_opens",
+      "email_clicks",
+      "meeting_count",
+      "days_since_created",
+      "industry_Education",
+      "industry_Finance",
+      "industry_Healthcare",
+      "industry_Logistics",
+      "industry_Manufacturing",
+      "industry_Media",
+      "industry_Professional Services",
+      "industry_Real Estate",
+      "industry_Retail",
+      "industry_Technology",
+      "lead_source_Conference",
+      "lead_source_Inbound Inquiry",
+      "lead_source_LinkedIn",
+      "lead_source_Outbound Prospecting",
+      "lead_source_Partner",
+      "lead_source_Product Demo",
+      "lead_source_Referral",
+      "lead_source_Webinar",
+      "lead_source_Website Form",
+      "company_size_encoded",
+      "budget_range_encoded",
+      "timeline_encoded",
+      "decision_maker_status"
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.5666666666666667,
+    "precision": 0.5729166666666666,
+    "recall": 0.5238095238095238,
+    "f1": 0.5472636815920398,
+    "roc_auc": 0.6105215419501134
+  },
+  "confusion_matrix": {
+    "true_negatives": 64,
+    "false_positives": 41,
+    "false_negatives": 50,
+    "true_positives": 55
+  },
+  "feature_importances": [
+    {
+      "feature": "lead_source_Conference",
+      "importance": 0.49065060472670674
+    },
+    {
+      "feature": "lead_source_Partner",
+      "importance": 0.476698790821592
+    },
+    {
+      "feature": "lead_source_Product Demo",
+      "importance": 0.4535923046336098
+    },
+    {
+      "feature": "meeting_count",
+      "importance": 0.4071692655550516
+    },
+    {
+      "feature": "decision_maker_status",
+      "importance": 0.40684936477493533
+    },
+    {
+      "feature": "industry_Professional Services",
+      "importance": 0.3797197289381595
+    },
+    {
+      "feature": "lead_source_Website Form",
+      "importance": 0.3465961201453239
+    },
+    {
+      "feature": "email_clicks",
+      "importance": 0.29663643214825763
+    },
+    {
+      "feature": "email_opens",
+      "importance": 0.2499658228662813
+    },
+    {
+      "feature": "industry_Healthcare",
+      "importance": 0.24075224187543284
+    },
+    {
+      "feature": "industry_Education",
+      "importance": 0.21657359576687527
+    },
+    {
+      "feature": "engagement_score",
+      "importance": 0.19493729752622976
+    },
+    {
+      "feature": "budget_range_encoded",
+      "importance": 0.1801470416003222
+    },
+    {
+      "feature": "industry_Manufacturing",
+      "importance": 0.17114821227105437
+    },
+    {
+      "feature": "lead_source_LinkedIn",
+      "importance": 0.15709375867170286
+    }
+  ]
+}

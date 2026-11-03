@@ -1,0 +1,118 @@
+[
+  {
+    "feature": "lead_source_Conference",
+    "importance": 0.49065060472670674
+  },
+  {
+    "feature": "lead_source_Partner",
+    "importance": 0.476698790821592
+  },
+  {
+    "feature": "lead_source_Product Demo",
+    "importance": 0.4535923046336098
+  },
+  {
+    "feature": "meeting_count",
+    "importance": 0.4071692655550516
+  },
+  {
+    "feature": "decision_maker_status",
+    "importance": 0.40684936477493533
+  },
+  {
+    "feature": "industry_Professional Services",
+    "importance": 0.3797197289381595
+  },
+  {
+    "feature": "lead_source_Website Form",
+    "importance": 0.3465961201453239
+  },
+  {
+    "feature": "email_clicks",
+    "importance": 0.29663643214825763
+  },
+  {
+    "feature": "email_opens",
+    "importance": 0.2499658228662813
+  },
+  {
+    "feature": "industry_Healthcare",
+    "importance": 0.24075224187543284
+  },
+  {
+    "feature": "industry_Education",
+    "importance": 0.21657359576687527
+  },
+  {
+    "feature": "engagement_score",
+    "importance": 0.19493729752622976
+  },
+  {
+    "feature": "budget_range_encoded",
+    "importance": 0.1801470416003222
+  },
+  {
+    "feature": "industry_Manufacturing",
+    "importance": 0.17114821227105437
+  },
+  {
+    "feature": "lead_source_LinkedIn",
+    "importance": 0.15709375867170286
+  },
+  {
+    "feature": "lead_source_Outbound Prospecting",
+    "importance": 0.15624387774473167
+  },
+  {
+    "feature": "timeline_encoded",
+    "importance": 0.13593897723124834
+  },
+  {
+    "feature": "industry_Logistics",
+    "importance": 0.12587604975198255
+  },
+  {
+    "feature": "lead_source_Webinar",
+    "importance": 0.08622943001545384
+  },
+  {
+    "feature": "days_since_created",
+    "importance": 0.08412655971902952
+  },
+  {
+    "feature": "company_size_encoded",
+    "importance": 0.08133654692413672
+  },
+  {
+    "feature": "industry_Technology",
+    "importance": 0.057713631703172695
+  },
+  {
+    "feature": "website_visits",
+    "importance": 0.0421397373184583
+  },
+  {
+    "feature": "industry_Real Estate",
+    "importance": 0.0323233162421021
+  },
+  {
+    "feature": "lead_source_Inbound Inquiry",
+    "importance": 0.031089676881431886
+  },
+  {
+    "feature": "lead_source_Referral",
+    "importance": 0.026541520580082502
+  },
+  {
+    "feature": "industry_Retail",
+    "importance": 0.012984992291477654
+  },
+  {
+    "feature": "industry_Media",
+    "importance": 0.006221187438269738
+  },
+  {
+    "feature": "industry_Finance",
+    "importance": 0.0021362122992977404
+  }
+]
